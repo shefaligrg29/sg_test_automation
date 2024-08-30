@@ -20,3 +20,7 @@ This project automates the testing of user journeys/flows in a web application t
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-repo/sg_test_automation.git
+
+2. Run Docker command:
+   ```bash
+   docker run -v <path>\sg_test_automation\reports:/app/reports sg_test_automation
